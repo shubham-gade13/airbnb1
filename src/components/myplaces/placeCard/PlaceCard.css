@@ -1,0 +1,22 @@
+.placeCard
+{
+    background-color: rgb(231, 237, 149);
+    margin: 10px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.images > img
+{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+.info
+{
+    margin: 20px;
+}

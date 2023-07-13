@@ -1,0 +1,28 @@
+.booking
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookingcard
+{
+    background-color: rgb(168, 245, 169);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 80%;
+   
+    margin: 10px 0px;
+    
+}
+
+.bookingImage
+{
+    height: 100%;
+    width: 100%;
+}
+.bookingImage > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

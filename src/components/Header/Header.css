@@ -1,0 +1,48 @@
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(180, 175, 175);
+}
+.logo-name
+{
+    display: flex;
+    align-items: center;
+}
+ 
+
+.logo-name > span
+{
+    font-size:25px;
+}
+.middle
+{
+    display: flex;
+    
+    border: 1px solid rgb(204, 198, 198);
+    border-radius: 20px;
+    padding: 10px 20px;
+   
+}
+.middle > div
+{
+    padding: 0px 4px;
+    margin: 0px 4px;
+}
+
+
+.logos
+{
+    display: flex;
+    border:1px solid rgb(217, 212, 212);
+       
+    border-radius: 15px;
+    padding: 2px 2px;
+   
+}
+.logos > div
+{
+    padding: 0px 4px;
+    
+}

@@ -1,0 +1,35 @@
+
+.loginpage
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+
+}
+.signupForm
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     margin-bottom: 70px;
+    width:25%;
+}
+
+.signupForm > input
+{
+    margin: 8px 0px;
+    border-radius: 13px;
+    padding: 4px 4px;
+    border: 1px solid rgb(100, 95, 95);
+    
+}
+
+.signupForm > button 
+{
+    margin-top: 8px;
+    background-color: #FF385C;
+    color: white;
+    border:none;
+    padding: 5px 0px;
+}

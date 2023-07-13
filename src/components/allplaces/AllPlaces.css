@@ -1,0 +1,18 @@
+.allplaces
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.image > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.newcard
+{
+    margin: 15px;
+    height: 300px;
+    text-decoration: none;
+    color: black;
+}
+ 
