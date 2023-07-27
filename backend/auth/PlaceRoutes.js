@@ -4,6 +4,8 @@ const Place=require("../models/PlaceModel");
 const jwt=require('jsonwebtoken');
 const jwt_secrete="hello_everyone"
 const imageDownloader=require('image-downloader')
+
+
 // create new place
 router.post("/createplace",async(req,res)=>
 {
@@ -29,6 +31,8 @@ router.post("/createplace",async(req,res)=>
     return res.json({status:true,place});
 });
 
+
+//place added by user
 router.get("/getUserAddedPlaces",async(req,res)=>
 {
     const token=req.header('token');
@@ -57,6 +61,8 @@ router.get("/getplace/:id",async(req,res)=>{
     
     
 })
+
+// edit place added by user
 router.post("/edit",async(req,res)=>
 {
     
@@ -98,7 +104,7 @@ router.post("/edit",async(req,res)=>
     
 })
 
-//getallplaces
+//getallplaces      
 
 router.get("/getallplaces",async(req,res)=>
 {
@@ -107,6 +113,9 @@ router.get("/getallplaces",async(req,res)=>
     return res.json({places});
 })
 
+
+
+//upload photos by link
 router.post('/uploadBYLink',async(req,res)=>
 {
     const {link}=req.body;

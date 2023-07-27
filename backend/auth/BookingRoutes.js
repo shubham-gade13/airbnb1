@@ -7,11 +7,10 @@ var jwt=require('jsonwebtoken');
 const jwt_secrete="hello_everyone";
 
 
-
+  //book place for logged in user
 router.post("/booking",async(req,res)=>
 {
-    //return res.json({hi:"hi"});
-    // console.log(req.body);
+        
 
      const token=req.header('token');
      try { 
@@ -43,7 +42,9 @@ router.post("/booking",async(req,res)=>
     
 })
 
-// get all bookings of user
+
+
+// get all booked places by user
 router.get("/getuserbookings",async(req,res)=>
 {
      const token=req.header('token');

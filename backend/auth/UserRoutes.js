@@ -40,7 +40,7 @@ router.post('/signup',async(req,res)=>
 
 });
 
-//login
+//login user
 router.post("/login",async(req,res)=>
 {
     
@@ -69,6 +69,8 @@ router.post("/login",async(req,res)=>
    }
 });
 
+
+//getuser 
 router.get("/getuser",async(req,res)=>
 {
     const token=req.header('token');

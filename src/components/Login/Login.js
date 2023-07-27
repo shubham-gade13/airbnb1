@@ -13,6 +13,7 @@ const Login = () => {
   const handleSubmit=async(e)=>
   {
     e.preventDefault();
+    //fetch data from login route
     const response=await fetch("http://localhost:4000/api/auth/login",{
       method:'POST',
       headers:{

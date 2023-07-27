@@ -17,6 +17,8 @@ const Account = () => {
     const [loading, setloading] = useState(true);
     const [islogin, setislogin] = useState(false)
       const [page, setpage] = useState(1);
+
+    //useeffect 
     useEffect(() => {
       const getuser=async()=>
       {

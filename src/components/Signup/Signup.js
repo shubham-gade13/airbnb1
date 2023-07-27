@@ -9,6 +9,7 @@ const Signup = () => {
   const handleSubmit=async(e)=>
   {
     e.preventDefault();
+    // fetch data from signup route by sending credentials
     const response=await fetch("http://localhost:4000/api/auth/signup",{
       method:'POST',
       headers:{
